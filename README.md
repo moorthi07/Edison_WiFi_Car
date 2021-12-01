@@ -84,7 +84,53 @@ systemctl enable wificar.service  # autorun wificar at startup
  
  
  
+## PIN Mappings
 
+
+ 
+- PIN  Name  Function  PIN  Name  Function 
+- 1  GND    70  GP81  Motor A EN(Motor En & Disable)
+- 2  VSYS    69  FW_RCVR    
+- 3  USB_ID    68  GP83  Motor A IN1(Direction control1) 
+- 4  VSYS    67  CLK_OUT    
+- 5  GND    66  GP80  Motor A IN2(Direction control2)
+- 6  VSYS    65  GP128  Motor B EN(Motor En & Disable)
+- 7  MSIC    64  GP82  Motor B IN1(Direction control1) 
+- 8  3.3V    63  GP129  Motor B IN2(Direction control2)
+- 9  GND    62  GP79  Motor C IN2(Direction control2)
+- 10  3.3V    61  GP130  UART1_RX 
+- 11  GND    60  GP77    
+- 12  1.8V    59  GP114  SPI2_MISO 
+- 13  GND    58  GP78  Motor A SIG2(Encoder input B) 
+- 14  DCIN    57  GP115  SPI2_MOSI 
+- 15  GND    56  GP43    
+- 16  USB_DP    55  GP109  SPI2_CLK 
+- 17  PWRBTN    54  GP41  Motor B SIG1(Encoder input A) 
+- 18  USB_DN    53  GP110  Motor A SIG1(Encoder input A) 
+- 19  FALUT    52  GP40  Motor B SIG2(Encoder input B) 
+- 20  USB_VBUS    51  GP111  SPI2_CS2 
+- 21  PSW    50  GP42  ADC_RDY 
+- 22  GP134  UART2_RX  49  UNUSED    
+- 23  V_VBAT    48  GP14  Motor D SIG1(Encoder input A) 
+- 24  GP44  Motor D EN(Motor En & 
+- Disable)  47  GP28  I2C6_SDA 
+- 25  GP165  Motor D IN1(Direction control1)  46  GP131  UART1_TX 
+- 26  GP45  Motor D IN2(Direction control2) 45  GP27  I2C6_SCL 
+- 27  GP135  UART2_TX  44  GP84  Motor D SIG2(Encoder input B) 
+- 28  GP46  Motor C EN(Motor En & Disable) 43  GP20  I2C1_SDA 
+- 29  UNUSED    42  GP15  Motor C SIG1(Encoder input A) 
+- 30  GP47  Motor C IN1(Direction control1)  41  GP19  I2C1_SCL 
+- 31  PCVR_MODE    40  UNUSED    
+- 32  GP48  DO NOT USE  39  GP183_PWM
+- 3  Motor A PWM(Speed control) 
+- 33  GP13_PWM
+- 1  Motor D PWM(Speed control)  38  UNUSED    
+- 34  GP49  Motor C SIG2(Encoder input B)  37  GP182_PWM
+- 2  Motor B PWM(Speed control) 
+- 35  GP12_PWM
+- 0  Motor C PWM(Speed control)  36  REST_OUT  Motor A EN(Motor En & Disable)
+
+ 
 ----
 
 This software in this repository is written by [Seeedstudio](http://seeed.cc)<br>
